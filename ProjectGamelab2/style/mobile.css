@@ -1,0 +1,128 @@
+@media only screen and (max-device-width: 524px) {
+
+	#boardgame{
+		width: 11rem;
+		display: inline;
+		padding: 5px;
+
+	}
+	#cardkomunitas{
+		width: 11rem;
+		display: inline;
+		padding: 5px;
+	}
+	#imageevent{
+		display: none;
+	}
+	.btnbeli{
+		width: 320px;
+	}
+	.card-text{
+		padding-left:10px ;
+		font-size: 23px;
+	}
+/* 	#cardpasar{
+		width: 11rem;
+		} */
+		#cardblog{
+			padding: 25px;
+		}
+		#imgblog{
+			padding: 30px;
+		}
+		#imgkomentar{
+			width: 50px;
+			margin-left: 7px;
+		}
+		#imghome1,#imghome2,#imghome3,#imghome4{
+			padding: 100px;
+			background-repeat: no-repeat;
+			background-size: 100%;
+		}
+		#imghome1{
+			background-image: url('../img/mobile/mobile-asset1.jpg');
+		}
+		#imghome2{
+			background-image: url('../img/mobile/mobile-asset2.jpg');
+		}
+		#imghome3{
+			background-image: url('../img/mobile/mobile-asset3.jpg');
+		}
+		#imghome4{
+			background-image: url('../img/mobile/mobile-asset4.jpg');
+		}
+		#imghome{
+			visibility: hidden;
+			display: none;
+		}
+		.head1,.head2,.head3,.head4,.head5{
+			padding: 30px;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+		.head1{
+			background-image: url('../img/mobile/mobile-asset5.jpg');
+		}
+		.head2{
+			margin-top: 20px;
+			background-image: url('../img/mobile/mobile-asset6.jpg');
+		}
+		.head3{
+			margin-top: 20px;
+			background-image: url('../img/mobile/mobile-asset7.jpg');
+		}
+		.head4{
+			margin-top: 20px;
+			background-image: url('../img/mobile/mobile-asset8.jpg');
+		}
+		.head5{
+			margin-top: 20px;
+			background-image: url('../img/mobile/mobile-asset9.jpg');
+		}
+		#head{
+			display: none;
+		}
+
+		/* mobile judul */
+		.judul1,.judul2,.judul3,.judul4,.judul5,.judul6{
+			padding: 190px;
+			background-size: 100%;
+			background-repeat: no-repeat;
+		}
+		.judul1{
+			background-image: url('../img/mobile/mobile-judul1.jpg');
+		}
+		.judul2{
+			background-image: url('../img/mobile/mobile-judul3.jpg');
+		}
+		.judul3{
+			background-image: url('../img/mobile/mobile-judul2.jpg');
+		}
+		.judul4{
+			background-image: url('../img/mobile/mobile-judul4.jpg');
+		}
+		.judul5{
+			background-image: url('../img/mobile/mobile-judul5.jpg');
+		}
+		.judul6{
+			background-image: url('../img/mobile/mobile-judul6.jpg');
+		}
+
+		#imgjudul{
+			display: none;
+		}
+		#cardevent{
+			width:20rem;
+
+		}
+		.modal {
+			z-index: 1; 
+			padding-top: 100px; 
+			left: 0;
+			top: 0;
+			width: 100%; 
+			height: 100%; 
+			
+		}
+
+	}

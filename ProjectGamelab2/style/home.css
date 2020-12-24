@@ -1,0 +1,43 @@
+/* navbar */
+/* ========================================= */
+.nav-item{
+	margin-right: 10px; 
+}
+.nav-link:hover{
+
+	border-bottom: solid white;
+	border-width: 1px;
+	-webkit-transform: scale(2.08);
+	transform: scale(1.05);
+}
+.active{
+	border-bottom: 1px solid white;
+}
+#cardkomunitas:hover{
+	-webkit-transform: scale(1.08);
+	transform: scale(1.05);
+}
+#boardgame:hover{
+	-webkit-transform: scale(2.08);
+	transform: scale(1.05);
+}
+#cardpembelian:hover{
+	-webkit-transform: scale(2.08);
+	transform: scale(1.05);
+}
+.checked {
+	color: orange;
+}
+#cardpasar:hover{
+	-webkit-transform: scale(2.08);
+	transform: scale(1.05);
+}
+#cardblog:hover{
+	-webkit-transform: scale(2.08);
+	transform: scale(1.05);
+}
+#textevent:hover{
+	text-decoration: underline;
+}
+
+/* ============================================ */

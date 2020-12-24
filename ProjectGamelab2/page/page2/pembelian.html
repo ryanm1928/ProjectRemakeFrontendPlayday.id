@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../../style/mobile.css">
+  <link rel="stylesheet" href="../../style/home.css">
+  <link rel="stylesheet" href="../../style/gallery.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <title>Pembelian</title>
+</head>
+<body>
+  <div class="container p-5">
+   <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #f9484a;
+   background-image: linear-gradient(315deg, #f9484a 0%, #fbd72b 74%);">
+   <div class="container-fluid">
+    <img src="../../img/logo-playday.png" alt="" class="img-fluid mx-4" style="width: 150px;">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+   <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+     <ul class=" navbar-nav mx-2">  
+      <li class="nav-item">
+        <a class="nav-link text-light" aria-current="page" href="../boardgame.html" > Boardgame</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light active " href="../pasar.html" >Pasar</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light " href="../blog.html" >Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light " href="../komunitas.html" >Komunitas</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light " href="../event.html" >Event</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light " href="../toko.html" >Toko & Cafe</a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link text-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Login/Register</a>
+     </li>
+   </ul>
+ </div>
+</div>
+</nav>
+</div>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <img src="../../img/logo-playday.png"  class="modal-title img-fluid w-25"  id="exampleModalLabel" alt="">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <center>
+          <div class="display-4 mb-3">Login</div>
+          <p class="text-muted" style="font-size: 14px;">Kami berkomitmen untuk terus memberikan yang terbaik untuk pengguna website PLAYDAY.id. Silakan Login untuk mengakses fitur-fitur khusus dan mendapatkan pengalaman yang berbeda dari non-member.</p>
+        </center>
+        <form action=""   method="">
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+            <input type="text" class="form-control" placeholder="Masukan email kamu" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1"><i class="fa fa-lock" aria-hidden="true"></i></span>
+            <input type="password" class="form-control" placeholder="Masukan password kamu" aria-label="Username" aria-describedby="basic-addon1">
+          </div>
+          <div class="input-group mb-3">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+                <small>Simpan sesi login</small>
+              </label>
+            </div>
+          </div>
+        </div>
+        <center>
+          <button type="submit" class="mx-4 px-2 btn btn-outline-primary w-75">Login</button> <br>
+          <small style="font-size: 12px;">Belum Punya Akun? <a id="registrasi" href="" data-bs-toggle="modal" data-bs-target="#modalke2" data-bs-whatever="@mdo">Register</a>   <a id="lupasandi" href="">Lupa Password</a></small>
+        </form>
+      </center>
+      <div class=" my-4 text-center border-bottom border-secondary w-100" style="height: 11px; line-height: 18px;">
+        <span style="font-size: 14px;
+        background-color: white;">
+        atau
+      </span>
+    </div>
+    <center>
+      <div class="btn btn-outline-primary p-2 mb-2"><i class="fa fa-facebook-official" aria-hidden="true"></i> Login menggunakan Facebook</div>
+    </center>
+    <div class=" container text-muted mb-4" style="font-size: 13px;">
+      * Dengan menekan "Login" kamu telah menyetujui <a target="_blank" href="https://www.playday.id/terms-and-conditions/">Terms &amp; Conditions</a> dan <a target="_blank" href="https://www.playday.id/privacy-policy/">Privacy Policy</a> PLAYDAY.id <br>
+      ** Pastikan browser kamu mengizinkan POPUP untuk Login menggunakan Facebook
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="modal" id="modalke2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <img src="../../img/logo-playday.png"  class="modal-title img-fluid w-25"  id="exampleModalLabel" alt="">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <center>
+          <div class="display-4 mb-3">Registrasi</div>
+        </center>
+        <form action=""   method="">
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Nama</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Masukan nama lengkap">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">No WhatsApp <small>-opsional-</small></label>
+            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Masukan No WhatsApp">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Masukan Email">
+          </div>
+          <div class="mb-1">
+            <label for="exampleFormControlInput1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="exampleFormControlInput1" placeholder="Masukan Password">
+          </div>
+          <small>Dengan menekan "Register" kamu telah menyetujui <a href="">Terms & Conditions</a> dan <a href="">Privacy Policy PLAYDAY.id</a></small>
+        </div>
+        <center>
+          <button type="submit" class="mx-4 px-2 btn btn-outline-primary w-75">Registrasi</button> <br>
+        </form>
+      </center>
+      <div class=" my-3 text-center border-bottom border-secondary w-100" style="height: 11px; line-height: 18px;">
+        <span style="font-size: 14px;
+        background-color: white;">
+        atau
+      </span>
+    </div>
+    <center>
+      <div class="container ">
+        <small>Sudah punya akun?  <a href="index.html" data-bs-toggle="modal" data-bs-target="#modalke1" data-bs-whatever="@mdo">Login</a></small>
+      </div>
+    </center>
+  </div>
+</div>
+</div>
+</div>
+
+
+<section>
+  <div class="container jumbotron">
+    <div class="row">
+      <div class="col-sm-9">
+        <div class="card mb-3 shadow" style="max-width: 840px;">
+          <div class="row g-0">
+            <div class="col-md-4 mt-2">
+              <img src="../../img/gambargame.png" alt="..." class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h2 class="card-title">Judul</h2>
+                <ul class="list-group list-group-horizontal">
+                  <li class="list-group-item"  style="background-color: #EEEEEE;">Jumlah Pemain</li>
+                  <li class="list-group-item" style="background-color: #EEEEEE;">Waktu Main</li>
+                  <li class="list-group-item" style="background-color: #EEEEEE;">Usia</li>
+                </ul>
+                <i class="fa fa-star checked" aria-hidden="true"></i>
+                <i class="fa fa-star checked" aria-hidden="true"></i>
+                <i class="fa fa-star checked" aria-hidden="true"></i>
+                <i class="fa fa-star checked" aria-hidden="true"></i>
+                <i class="fa fa-star" aria-hidden="true"></i>
+                4.0
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias facilis molestias voluptas ipsum asperiores veniam, est laboriosam, illo, tempore consectetur voluptatum ea aliquid maiores quaerat aut praesentium modi pariatur ad.</p>
+                <div class="my-2 h5">RP 200.000</div>
+                <button type="button" class=" btnbeli btn btn-outline-success my-3">Tanya Via Whatsapp <i class="fa fa-whatsapp" aria-hidden="true"></i></button>
+                <p class="card-text"><small class="text-muted">Stok : 200</small></p>   
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="row">
+          <div class="col-sm-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img id="myImg" src="../../img/gambargame.png" alt="Snow" style="width:100%;max-width:300px">
+                  <div id="myModal" class="modal">
+                    <span class="close">&times;</span>
+                    <img class="modal-content" id="img01">
+                    <div id="caption"></div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="../../img/icon-asset1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../../img/icon-asset3.png" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-7 mt-5 p-3">
+            <p class="">Perancang: <strong class="text-warning"> Developer</strong> </p>
+            <p class="">Illustrator:<strong class="text-warning"> Developer</strong></p>
+            <p class="">Penerbit:<strong class="text-warning"> Developer</strong></p>
+            <p class="">Tahun Liris:<strong class="text-warning"> 2077</strong></p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam minus quod reiciendis, sapiente inventore, laboriosam mollitia saepe quam odit voluptas, aspernatur ad id amet, nam autem ipsa rerum excepturi aliquid.</p>
+          </div>
+        </div>
+
+        <p>ULASAN</p>
+        <div class="row">
+          <div class=" mb-3" style="max-width: 840px;">
+            <div class="row g-0">
+              <div class="col-md-1">
+                <img src="../../img/user.png" alt="..." class="img-fluid 25 rounded-circle" id="imgkomentar">
+              </div>
+              <div class="col-md-10">
+                <div class="mx-3">
+                  <h5 class="">user</h5><p class="d-inline">
+                    <i class="fa fa-star checked" aria-hidden="true"></i>
+                    <i class="fa fa-star checked" aria-hidden="true"></i>
+                    <i class="fa fa-star checked" aria-hidden="true"></i>
+                    <i class="fa fa-star checked" aria-hidden="true"></i>
+                    <i class="fa fa-star checked" c aria-hidden="true"></i>
+                    <small class="text-muted" style="font-size: 11px;">7 Desember 2077</small></p>
+                    <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, perferendis voluptas enim nihil ullam dolorum debitis temporibus quaerat asperiores, sunt aut, aliquid. Numquam, sapiente hic rem, consectetur sequi quibusdam quae.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class=" mb-3" style="max-width: 840px;">
+            <div class="row g-0">
+              <div class="col-md-1">
+                <img src="../../img/user.png" alt="..." class="img-fluid 25 rounded-circle" id="imgkomentar">
+              </div>
+              <div class="col-md-10">
+                <div class="mx-3">
+                  <h5 class="">user</h5><p class="d-inline">
+                    <i class="fa fa-star checked" aria-hidden="true"></i>
+                    <i class="fa fa-star checked" aria-hidden="true"></i>
+                    <i class="fa fa-star checked" aria-hidden="true"></i>
+                    <i class="fa fa-star checked" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <small class="text-muted" style="font-size: 11px;">7 Desember 2077</small></p>
+                    <p class="text-muted">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium, perferendis voluptas enim nihil ullam dolorum debitis temporibus quaerat asperiores, sunt aut, aliquid. Numquam, sapiente hic rem, consectetur sequi quibusdam quae.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-sm-3" >
+            <div class="card-header  mb-2 text-light" style="background-color: #fbd72b ;
+            background-image: linear-gradient(315deg, #f9484a 0%,#f9484a 74%);">Boardgame Lainya</div>
+            <a href="pembelian.html" style="text-decoration: none; color: black;">
+             <div class="card mb-3 shadow" style="max-width: 540px;" id="cardpembelian">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="../../img/gambargame.png" alt="..." class="img-fluid">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <p class="card-text">Judul</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+          <a href="pembelian.html" style="text-decoration: none; color: black;">
+           <div class="card mb-3 shadow" style="max-width: 540px;" id="cardpembelian">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../../img/gambargame.png" alt="..." class="img-fluid">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <p class="card-text">Judul</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="pembelian.html" style="text-decoration: none; color: black;">
+         <div class="card mb-3 shadow" style="max-width: 540px;" id="cardpembelian">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../../img/gambargame.png" alt="..." class="img-fluid">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <p class="card-text">Judul</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+      <a href="pembelian.html" style="text-decoration: none; color: black;">
+       <div class="card mb-3 shadow" style="max-width: 540px;" id="cardpembelian">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="../../img/gambargame.png" alt="..." class="img-fluid">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <p class="card-text">Judul</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+    <a href="pembelian.html" style="text-decoration: none; color: black;">
+     <div class="card mb-3 shadow" style="max-width: 540px;" id="cardpembelian">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img src="../../img/gambargame.png" alt="..." class="img-fluid">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-text">Judul</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>  
+  <a href="pembelian.html" style="text-decoration: none; color: black;">
+   <div class="card mb-3 shadow" style="max-width: 540px;" id="cardpembelian">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="../../img/gambargame.png" alt="..." class="img-fluid">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <p class="card-text">Judul</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</a>  
+<a href="pembelian.html" style="text-decoration: none; color: black;">
+ <div class="card mb-3 shadow" style="max-width: 540px;" id="cardpembelian">
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="../../img/gambargame.png" alt="..." class="img-fluid">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <p class="card-text">Judul</p>
+      </div>
+    </div>
+  </div>
+</div>
+</a>    
+</div>
+</div>
+</div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="">
+      <div class="card-body">
+        <div class="card-header  mb-2 text-light" style="background-color: #fbd72b ;
+        background-image: linear-gradient(315deg, #f9484a 0%,#f9484a 74%);"><center>Boardgame Terkait</center></div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-sm-3">
+             <a href="pembelian.html" style="text-decoration: none;"> 
+              <div class="card shadow mb-2">
+                <img src="../../img/gambargame.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p style="color: #fd7e14; font-size: 13px;">#family #kids #fun</p>
+                  <p style="font-size: 16px; color: black;">Some quick example text </p>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-sm-3">
+           <a href="pembelian.html" style="text-decoration: none;"> 
+            <div class="card shadow mb-2">
+              <img src="../../img/gambargame.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <p style="color: #fd7e14; font-size: 13px;">#family #kids #fun</p>
+                <p style="font-size: 16px; color: black;">Some quick example text </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-3">
+         <a href="pembelian.html" style="text-decoration: none;"> 
+          <div class="card shadow mb-2">
+            <img src="../../img/gambargame.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <p style="color: #fd7e14; font-size: 13px;">#family #kids #fun</p>
+              <p style="font-size: 16px; color: black;">Some quick example text </p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="col-sm-3">
+       <a href="pembelian.html" style="text-decoration: none;"> 
+        <div class="card shadow mb-2">
+          <img src="../../img/gambargame.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p style="color: #fd7e14; font-size: 13px;">#family #kids #fun</p>
+            <p style="font-size: 16px; color: black;">Some quick example text </p>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div> 
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<center>
+  <hr class="m-y-md">
+  <div class="h5">PLAYDAY.ID | TOGETHER - PLAY - SHARE</div>
+  <a href="" style="color: #fd7e14;"><i class="fa fa-facebook-official" aria-hidden="true"></i> https://www.facebook.com/playdayid</a>
+  <div >
+    <p>Copyright © 2018 - 2020 PlayDay.ID | <a href="">About</a> | <a href="">Privacy & Policy</a> | <a href="">Terms & Conditions </a> | <a href="">F.A.Q.</a></p>
+  </div>
+</center>
+
+<script src="../../js/gallery.js"></script>
+<!-- Optional JavaScript; choose one of the two! -->
+
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+<!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  -->
+</body>
+</html>
